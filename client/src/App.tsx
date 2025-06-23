@@ -37,7 +37,6 @@ const App: React.FC = () => {
 
   const handleSave = async () => {
     await saveCode(roomId, code);
-    alert("Saved!");
   };
 
   return (
